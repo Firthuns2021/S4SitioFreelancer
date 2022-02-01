@@ -1,0 +1,24 @@
+/* */
+html{
+    font-size: 62.5%; /*necesario para hacer adaptable a las diferentes pantalllas rem*/
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;/* 1rem = 10px, necesario para hacer adaptable a las diferentes pantalllas rem*/
+}
+/*
+* seleccion todos los elementos del html
+
+*/
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+h1 {
+    text-align: center;
+    font-size: 3.8rem;
+    /*width: 20rem;*/
+}
+h1 span {
+    /*rem medida relativa al documento*/
+    font-size: 2rem;
+}
